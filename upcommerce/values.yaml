@@ -1,9 +1,11 @@
 replicaCount: 1
 imagePullPolicy: Always
-cpuLimit: "1"
+cpuLimit: "0.5"
 memoryLimit: "2Gi"
 upcommerce:
   image: uonyeka/upcommerce:v3
+canary:
+  image: uonyeka/canary:linux-amd64
 
 
 
